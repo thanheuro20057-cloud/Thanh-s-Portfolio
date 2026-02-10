@@ -18,9 +18,9 @@ export const projects = [
     description: 'A web application built for scale.',
     links: {
       live: 'https://github.com/thanhnguyen1234567890',
-      github: 'https://github.com/thanhnguyen1234567890',
+      github: 'https://github.com/thanheuro20057-cloud/job-tracking-application-project',
     },
-    image: '/images/full-stack-web-application.png',
+    image: '"C:\Users\thanh\OneDrive\Documents\me\my portfolio\JobTrackerApp.png"',
   },
   {
     id: 'project-2',
