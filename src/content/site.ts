@@ -14,8 +14,8 @@ export const projects = [
   {
     id: 'project-1',
     title: 'Full Stack Web Application',
-    stack: ['HTML', 'CSS', 'JavaScript','TypeScript', 'Node.js', 'Express', 'MongoDB'],
-    description: 'A web application built for scale.',
+    stack: ['TypeScript', 'Node.js', 'PostgreSQL', 'Tailwind CSS', 'JavaScript','HTML', 'Express', 'Next.js'],
+    description: 'A web application built for students to track their job applications and interviews.',
     links: {
       live: 'https://job-tracking-application-project.vercel.app/',
       github: 'https://github.com/thanheuro20057-cloud/job-tracking-application-project',
@@ -24,25 +24,14 @@ export const projects = [
   },
   {
     id: 'project-2',
-    title: 'Project Beta',
-    stack: ['React', 'Node.js', 'PostgreSQL'],
-    description: 'Real-time collaboration platform for remote teams.',
+    title: 'User Activity Analytics Reporting System',
+    stack: ['Python', 'SQL', 'Pandas', 'Matplotlib'],
+    description: 'A system that analyzes user activity data and generates reports.',
     links: {
-      live: 'https://example.com',
-      github: null,
+      live: 'https://github.com/thanheuro20057-cloud/user-activity-analytics-reporting-system',
+      github: 'https://github.com/thanheuro20057-cloud/user-activity-analytics-reporting-system',
     },
-    image: '/images/project-2.jpg',
-  },
-  {
-    id: 'project-3',
-    title: 'Project Gamma',
-    stack: ['Vue', 'Firebase', 'Figma'],
-    description: 'Design system and component library.',
-    links: {
-      live: null,
-      github: 'https://github.com/example',
-    },
-    image: '/images/project-3.jpg',
+    image: '/images/UAARS.png',
   },
   {
     id: 'project-4',
@@ -70,53 +59,57 @@ export const projects = [
 
 export const experience = [
   {
-    role: 'Senior Frontend Engineer',
-    company: 'Tech Company',
-    period: '2022 — Present',
-    description: 'Leading frontend architecture and design systems.',
+    role: 'Server/Busser',
+    company: 'Pho Anh Vu Waterloo Restaurant',
+    period: '2024 — Present',
+    description: 'Responsible for serving customers, taking orders, and serving food.',
   },
   {
-    role: 'Frontend Developer',
-    company: 'Startup Inc',
-    period: '2020 — 2022',
-    description: 'Built customer-facing dashboards and internal tools.',
+    role: 'Full Stack Developer',
+    company: 'Self-employed',
+    period: '2024 — Present',
+    description: 'Built web applications for clients and self-employed.',
   },
   {
-    role: 'Junior Developer',
-    company: 'Agency XYZ',
-    period: '2018 — 2020',
-    description: 'Delivered client websites and landing pages.',
+    role: 'Junior Developer/Secretary',
+    company: 'Conestoga Student Inc',
+    period: '2024 — 2025',
+    description: 'Responsible for delivering client websites and landing pages.',
   },
 ] as const;
 
 export const education = [
   {
-    degree: 'B.S. Computer Science',
-    school: 'University Name',
-    period: '2014 — 2018',
+    degree: 'Software Engineering Technology Advanced Diploma',
+    school: 'Conestoga College',
+    period: '2024 — 2027',
+    description: 'A program that teaches the fundamentals of software engineering and technology.',
   },
 ] as const;
 
 export const skills = [
   'TypeScript',
-  'React',
-  'Next.js',
+  'Python',
   'Node.js',
-  'Tailwind CSS',
-  'Framer Motion',
-  'Figma',
+  'Express',
   'PostgreSQL',
-  'Vercel',
-  'Git',
+  'Tailwind CSS',
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'Next.js',
+  'Figma',
+  'Github',
+  'Jira',
+  'AzureDevOps',
 ] as const;
 
 export const contact = {
   email: 'hello@example.com',
   social: [
-    { label: 'GitHub', url: 'https://github.com/example' },
-    { label: 'LinkedIn', url: 'https://linkedin.com/in/example' },
-    { label: 'Twitter', url: 'https://twitter.com/example' },
-    { label: 'Dribbble', url: 'https://dribbble.com/example' },
+    { label: 'GitHub', url: 'https://github.com/thanheuro20057-cloud' },
+    { label: 'LinkedIn', url: 'https://www.linkedin.com/in/thanh-nguyen-tuan-593975333' },
+
   ],
 } as const;
 
