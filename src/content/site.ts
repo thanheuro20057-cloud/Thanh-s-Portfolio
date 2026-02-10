@@ -20,7 +20,7 @@ export const projects = [
       live: 'https://github.com/thanhnguyen1234567890',
       github: 'https://github.com/thanheuro20057-cloud/job-tracking-application-project',
     },
-    image: "/Thanh-s-Portfolio/images/JobTrackerApp.png",
+    image: "/images/JobTrackerApp.png",
   },
   {
     id: 'project-2',
