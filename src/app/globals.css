@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Light mode (optional — dark is default) */
+  --color-background: #fafafa;
+  --color-foreground: #0a0a0a;
+  --color-muted: #737373;
+  --color-accent: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  --font-inter: 'Inter', system-ui, sans-serif;
+}
+
+.dark {
+  --color-background: #0a0a0a;
+  --color-foreground: #fafafa;
+  --color-muted: #a3a3a3;
+  --color-accent: linear-gradient(135deg, #818cf8 0%, #a78bfa 100%);
+}
+
+/* Shade sweep light zone: dark text on light background */
+html.shade-light {
+  --color-foreground: #0a0a0a;
+  --color-muted: #525252;
+  --color-background: transparent;
+}
+
+/* CSS custom properties for motion (used in motion.ts) */
+:root {
+  --duration-instant: 100ms;
+  --duration-fast: 200ms;
+  --duration-normal: 400ms;
+  --duration-slow: 600ms;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Lenis smooth scroll wrapper */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+/* No scroll-snap: Lenis is the single scroll driver (avoids conflict/jank) */
+
+/* Base styles — body transparent so ShadeSweep shows; html dark fallback */
+html {
+  background: #0a0a0a;
+}
+
+body {
+  background: transparent;
+  color: var(--color-foreground);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
