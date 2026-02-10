@@ -17,7 +17,7 @@ export const projects = [
     stack: ['HTML', 'CSS', 'JavaScript','TypeScript', 'Node.js', 'Express', 'MongoDB'],
     description: 'A web application built for scale.',
     links: {
-      live: 'https://github.com/thanhnguyen1234567890',
+      live: 'https://job-tracking-application-project.vercel.app/',
       github: 'https://github.com/thanheuro20057-cloud/job-tracking-application-project',
     },
     image: "/images/JobTrackerApp.png",
