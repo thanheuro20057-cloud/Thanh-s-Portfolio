@@ -33,28 +33,8 @@ export const projects = [
     },
     image: '/images/UAARS.png',
   },
-  {
-    id: 'project-4',
-    title: 'Project Delta',
-    stack: ['Svelte', 'Rust', 'WebAssembly'],
-    description: 'Performance-critical visualization tools.',
-    links: {
-      live: 'https://example.com',
-      github: 'https://github.com/example',
-    },
-    image: '/images/project-4.jpg',
-  },
-  {
-    id: 'project-5',
-    title: 'Project Epsilon',
-    stack: ['React Native', 'Expo'],
-    description: 'Cross-platform mobile app for fitness tracking.',
-    links: {
-      live: null,
-      github: 'https://github.com/example',
-    },
-    image: '/images/project-5.jpg',
-  },
+
+
 ] as const;
 
 export const experience = [
