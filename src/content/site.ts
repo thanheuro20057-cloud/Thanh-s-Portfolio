@@ -45,10 +45,10 @@ export const experience = [
     description: 'Responsible for serving customers, taking orders, and serving food.',
   },
   {
-    role: 'Full Stack Developer',
-    company: 'Self-employed',
+    role: 'Content Creator',
+    company: 'Togo Sushi',
     period: '2024 — Present',
-    description: 'Built web applications for clients and self-employed.',
+    description: 'Built online menu for the business, design photos and edit videos for marketing purposes',
   },
   {
     role: 'Junior Developer/Secretary',
@@ -68,6 +68,15 @@ export const education = [
 ] as const;
 
 export const skills = [
+  'C#',
+  'C',
+  'TCP/IP',
+  '.NET',
+  'SQL',
+  'T-SQL',
+  'ARM Assembly',
+  'XML',
+  'React',
   'TypeScript',
   'Python',
   'Node.js',
@@ -82,10 +91,11 @@ export const skills = [
   'Github',
   'Jira',
   'AzureDevOps',
+  'Vercel',
 ] as const;
 
 export const contact = {
-  email: 'hello@example.com',
+  email: 'thanheuro20057@gmail.com',
   social: [
     { label: 'GitHub', url: 'https://github.com/thanheuro20057-cloud' },
     { label: 'LinkedIn', url: 'https://www.linkedin.com/in/thanh-nguyen-tuan-593975333' },
