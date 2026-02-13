@@ -18,9 +18,9 @@ export function ShadeSweep() {
     scrollProgress,
     [0, 0.2, 0.45, 0.7, 0.85, 1],
     [
-      'rgb(0, 0, 0)',        // black — intro
-      'rgb(26, 26, 26)',     // dark grey — about
-      'rgb(64, 64, 64)',     // charcoal — projects
+      'rgb(64, 64, 64)',        // black — intro
+      'rgb(78, 78, 78)',     // dark grey — about
+      'rgb(100, 100, 100)',     // charcoal — projects
       'rgb(163, 163, 163)',  // silver — skills/contact
       'rgb(212, 212, 212)',  // light grey — end
       'rgb(250, 250, 250)',  // near-white — playground
